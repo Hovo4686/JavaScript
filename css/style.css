@@ -1,5 +1,6 @@
 body {
-  background-color: rgba(0, 255, 221, 0.577);
+  background: linear-gradient(white, #3232a5);
+  height: 100vh;
 }
 #canvas {
   box-sizing: border-box;
@@ -10,7 +11,7 @@ body {
   width: 700px;
   height: 300px;
   margin: 100px auto;
-  box-shadow: 46px 47px 16px 10px #007194;
+  box-shadow: 46px 47px 16px 10px #966398;
   border-radius: 20px;
 }
 #canvas #primary-number {
@@ -51,22 +52,26 @@ body {
 }
 #canvas input {
   border: solid 2px #15783f;
-  width: 50px;
-  height: 25px;
-  padding-left: 25px;
-  border-radius: 20px;
+  width: 85px;
+  height: 120px;
+  padding-left: 30px;
+  border-radius: 40px;
+  background-color: #966398;
+  font-size: 35px;
 }
 #canvas #btn {
   width: 100px;
-  height: 30px;
+  height: 80px;
   margin: 5px;
   background: rgba(12, 79, 95, 0.45);
   color: white;
   border: 1px solid rgba(79, 235, 180, 0.41);
   border-radius: 40px;
+  font-size: 25px;
+  margin-left: 20px;
   cursor: pointer;
   transform: 0.5;
 }
 #canvas #btn:hover {
-  color: chartreuse;
+  color: cyan;
 }

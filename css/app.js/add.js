@@ -89,8 +89,10 @@
 //   answerInput.value = '';
 // }
 
-let firstNumber = parseInt(10 * Math.random())
-  , secondNumber = parseInt(10 * Math.random())
+
+
+let firstNumber = parseInt(1000 * Math.random())
+  , secondNumber = parseInt(1000 * Math.random())
   , total = firstNumber + secondNumber
   , primary = document.getElementById("primary-number");
 primary.innerHTML = `<p>${firstNumber}</p>`;
@@ -99,8 +101,8 @@ secondary.innerHTML = `<p>${secondNumber}</p>`;
 let button = document.getElementById("btn");
 button.addEventListener("click", function() {
     let e = document.getElementById("guess").value;
-    (e = Number(e)) === total ? (alert("Correct"),
-    window.location.reload()) : (alert("Sorry. Incorrect. The correct answer was " + total + "."),
+    (e = Number(e)) === total ? (alert("Correct Congratulations: 🥳🥳🥳🥳🥳"),
+    window.location.reload()) : (alert("Sorry, that’s incorrect: 😞😞😞😞😞 The right answer is---> " + total + "."),
     window.location.reload())
 });
 

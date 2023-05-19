@@ -1,5 +1,6 @@
 body {
-    background-color: rgba(0, 255, 221, 0.577);
+    background: linear-gradient( white, rgb(50, 50, 165));
+    height: 100vh;
 }
 #canvas {
     box-sizing:border-box;
@@ -10,7 +11,7 @@ body {
     width: 700px;
     height: 300px;
     margin: 100px auto;
-    box-shadow: 46px 47px 16px 10px rgb(0, 113, 148) ;
+    box-shadow: 46px 47px 16px 10px rgb(150, 99, 152) ;
     border-radius: 20px;
     #primary-number {
         display:flex;
@@ -50,23 +51,27 @@ body {
     }
     input {
         border: solid 2px rgb(21, 120, 63);
-        width: 50px;
-        height: 25px;
-        padding-left: 25px;
-        border-radius: 20px;
+        width: 85px;
+        height: 120px;
+        padding-left: 30px;
+        border-radius: 40px;
+        background-color: rgb(150, 99, 152);
+        font-size: 35px;
     }
     #btn {
         width: 100px;
-        height: 30px;
+        height: 80px;
         margin: 5px;
         background: rgba(12, 79, 95, 0.45);
         color: white;
         border: 1px solid rgba(79, 235, 180, 0.41);
         border-radius: 40px;
+        font-size: 25px;
+        margin-left: 20px;
         cursor: pointer;
         transform: 0.5;
         &:hover {
-            color: chartreuse;
+            color: cyan;
         }
     }
    
